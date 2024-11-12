@@ -9,12 +9,12 @@
   const data = {
     labels: ['Studying', 'Working', 'Sleeping', 'Talking to Roommate/Bestfriend'],
     datasets: [{
-      data: [10, 10, 20, 60],  
-      backgroundColor: ['#FFB6C1', '#FF69B4', '#FF1493', '#FF77FF'], 
+      data: [10, 10, 20, 60],
+      backgroundColor: ['#FFB6C1', '#FF69B4', '#FF1493', '#FF77FF'],
     }],
   };
 
-  const ctx = document.getElementById('myDoughnutChart').getContext('2d');
+  const ctx = document.getElementById('myChart').getContext('2d');
 
   new Chart(ctx, {
     type: 'doughnut',

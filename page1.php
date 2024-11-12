@@ -1,6 +1,6 @@
 <h1>Do People Like Haya?</h1>
 <div>
-<canvas id="myChart" style="width: 300px; height: 300px;"></canvas>
+<canvas id="myChart"></canvas>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -23,9 +23,7 @@
     type: 'pie',  
     data: data,   
     options: {
-      plugins: {
-  
-      },
+      responsive: true, 
     },
   });
 </script>

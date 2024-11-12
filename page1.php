@@ -1,4 +1,5 @@
 <h1>Do People Like Haya?</h1>
+<p>(they are all liars)</p>
 <div>
 <canvas id="myChart"></canvas>
 </div>

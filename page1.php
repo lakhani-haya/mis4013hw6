@@ -10,24 +10,21 @@
   const data = {
     datasets: [{
         data: [2, 10],  // The data values for the chart
-        backgroundColor: ['#FF0000', '#00FF00'],  // Colors for each segment
+        backgroundColor: ['#ffb4b4', '#cf3476'],  
     }],
-    labels: ['No', 'Not at all'],  // Labels for the segments
+    labels: ['No', 'Not at all'],  
   };
 
-  // Get the canvas element where the chart will be rendered
+  
   const ctx = document.getElementById('myChart').getContext('2d');
 
-  // Create the chart
+ 
   const myChart = new Chart(ctx, {
-    type: 'pie',  // Specify the chart type (pie chart)
-    data: data,   // Pass the data to the chart
+    type: 'pie',  
+    data: data,   
     options: {
-      responsive: true,  // Make the chart responsive to window size
       plugins: {
-        legend: {
-          position: 'top',  // Position of the legend
-        },
+  
       },
     },
   });

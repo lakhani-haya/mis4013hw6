@@ -10,7 +10,7 @@
     <p>Explore statistics about Haya using interactive charts:</p>
     <ul>
         <li><a href="page1.php">Do People Like Haya? </a></li>
-        <li><a href="bar-chart.php">Cities Haya Has Visited by Continent </a></li>
+        <li><a href="page2.php">Cities Haya Has Visited by Continent </a></li>
     </ul>
 </body>
 </html>

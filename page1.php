@@ -7,7 +7,6 @@
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
 <script>
-  // Define the data for the pie chart
   const data = {
     datasets: [{
         data: [2, 10],  

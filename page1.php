@@ -1,6 +1,6 @@
 <h1>Do People Like Haya?</h1>
 <div>
-  <canvas id="myChart" width="100" height="100"></canvas>
+<canvas id="myChart" style="width: 300px; height: 300px;"></canvas>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
